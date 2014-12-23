@@ -25,17 +25,3 @@ $data  = $data['thoi_tiet'][$id];
 $temp = $data['temp'];
 
 ?>
-<table cellpadding="0" cellspacing="0" width="100%">
-<tr><td>
-<img src="http://st.f2.vnecdn.net/i/v2/weather/<?php echo $data['weather_code']; ?>.gif" align="left" />
-<img src="images/<?php echo $temp[0]; ?>.gif" align="left" />
-<img src="images/<?php echo $temp[1]; ?>.gif" align="left" />
-<img src="images/c.gif" />
-</td>
-</tr>
-<tr>
-<td>
-<?php echo $data['weather']; ?>
-</td>
-</tr>
-</table>
