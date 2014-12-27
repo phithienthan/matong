@@ -50,4 +50,8 @@ define('AVATAR_RESIZE_PATH', '/uploads/image/avatar/resize/');
 define('TABLET', 'tablet');
 define('PHONE', 'phone');
 define('COMPUTER', 'computer');
+
+define('RATE_URL', 'http://www.vietcombank.com.vn/ExchangeRates/ExrateXML.aspx');
+define('GOLD_URL', 'http://www.sjc.com.vn/xml/tygiavang.xml');
+define('WEATHER_URL', 'http://thienduongweb.com/tool/weather/?size=160&fsize=12&bg=images/bg.png&repeat=repeat-x&r=1&w=1&g=1&col=1&d=0');
 ?>

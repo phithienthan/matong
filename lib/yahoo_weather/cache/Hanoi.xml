@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Hanoi, VN</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Hanoi__VN/*http://weather.yahoo.com/forecast/VMXX0006_c.html</link>
+<description>Yahoo! Weather for Hanoi, VN</description>
+<language>en-us</language>
+<lastBuildDate>Sun, 07 Jul 2013 9:00 am ICT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Hanoi" region=""   country="Vietnam"/>
+<yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+<yweather:wind chill="31"   direction="140"   speed="14.48" />
+<yweather:atmosphere humidity="70"  visibility="9.99"  pressure="982.05"  rising="0" />
+<yweather:astronomy sunrise="5:21 am"   sunset="6:43 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Hanoi, VN at 9:00 am ICT</title>
+<geo:lat>21.14</geo:lat>
+<geo:long>105.87</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Hanoi__VN/*http://weather.yahoo.com/forecast/VMXX0006_c.html</link>
+<pubDate>Sun, 07 Jul 2013 9:00 am ICT</pubDate>
+<yweather:condition  text="Mostly Cloudy"  code="28"  temp="31"  date="Sun, 07 Jul 2013 9:00 am ICT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/28.gif"/><br />
+<b>Current Conditions:</b><br />
+Mostly Cloudy, 31 C<BR />
+<BR /><b>Forecast:</b><BR />
+Sun - Isolated Thunderstorms. High: 34 Low: 27<br />
+Mon - Scattered Thunderstorms. High: 33 Low: 27<br />
+Tue - Scattered Thunderstorms. High: 31 Low: 26<br />
+Wed - Scattered Thunderstorms. High: 31 Low: 26<br />
+Thu - Scattered Thunderstorms. High: 30 Low: 25<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Hanoi__VN/*http://weather.yahoo.com/forecast/VMXX0006_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Sun" date="7 Jul 2013" low="27" high="34" text="Isolated Thunderstorms" code="37" />
+<yweather:forecast day="Mon" date="8 Jul 2013" low="27" high="33" text="Scattered Thunderstorms" code="38" />
+<yweather:forecast day="Tue" date="9 Jul 2013" low="26" high="31" text="Scattered Thunderstorms" code="38" />
+<yweather:forecast day="Wed" date="10 Jul 2013" low="26" high="31" text="Scattered Thunderstorms" code="38" />
+<yweather:forecast day="Thu" date="11 Jul 2013" low="25" high="30" text="Scattered Thunderstorms" code="38" />
+<guid isPermaLink="false">VMXX0006_2013_07_11_7_00_ICT</guid>
+</item>
+</channel>
+</rss>
+
+<!-- api19.weather.gq1.yahoo.com Sun Jul  7 02:33:01 PST 2013 -->

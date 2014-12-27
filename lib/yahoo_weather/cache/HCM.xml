@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Ho Chi Minh City, VN</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Ho_Chi_Minh_City__VN/*http://weather.yahoo.com/forecast/VMXX0007_c.html</link>
+<description>Yahoo! Weather for Ho Chi Minh City, VN</description>
+<language>en-us</language>
+<lastBuildDate>Sun, 07 Jul 2013 9:00 am ICT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Ho Chi Minh City" region=""   country="Vietnam"/>
+<yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+<yweather:wind chill="29"   direction="0"   speed="3.22" />
+<yweather:atmosphere humidity="74"  visibility="9.99"  pressure="982.05"  rising="0" />
+<yweather:astronomy sunrise="5:36 am"   sunset="6:19 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Ho Chi Minh City, VN at 9:00 am ICT</title>
+<geo:lat>10.76</geo:lat>
+<geo:long>106.66</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Ho_Chi_Minh_City__VN/*http://weather.yahoo.com/forecast/VMXX0007_c.html</link>
+<pubDate>Sun, 07 Jul 2013 9:00 am ICT</pubDate>
+<yweather:condition  text="Partly Cloudy"  code="30"  temp="29"  date="Sun, 07 Jul 2013 9:00 am ICT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/30.gif"/><br />
+<b>Current Conditions:</b><br />
+Partly Cloudy, 29 C<BR />
+<BR /><b>Forecast:</b><BR />
+Sun - Scattered Thunderstorms. High: 31 Low: 24<br />
+Mon - Scattered Thunderstorms. High: 32 Low: 24<br />
+Tue - Scattered Thunderstorms. High: 32 Low: 24<br />
+Wed - PM Thunderstorms. High: 33 Low: 24<br />
+Thu - PM Thunderstorms. High: 33 Low: 24<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Ho_Chi_Minh_City__VN/*http://weather.yahoo.com/forecast/VMXX0007_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Sun" date="7 Jul 2013" low="24" high="31" text="Scattered Thunderstorms" code="38" />
+<yweather:forecast day="Mon" date="8 Jul 2013" low="24" high="32" text="Scattered Thunderstorms" code="38" />
+<yweather:forecast day="Tue" date="9 Jul 2013" low="24" high="32" text="Scattered Thunderstorms" code="38" />
+<yweather:forecast day="Wed" date="10 Jul 2013" low="24" high="33" text="PM Thunderstorms" code="38" />
+<yweather:forecast day="Thu" date="11 Jul 2013" low="24" high="33" text="PM Thunderstorms" code="38" />
+<guid isPermaLink="false">VMXX0007_2013_07_11_7_00_ICT</guid>
+</item>
+</channel>
+</rss>
+
+<!-- api23.weather.gq1.yahoo.com Sun Jul  7 02:32:01 PST 2013 -->

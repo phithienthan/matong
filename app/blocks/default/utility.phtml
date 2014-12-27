@@ -1,3 +1,105 @@
-<div class="left_block">
-    <iframe frameborder="0" marginwidth="0" marginheight="0" src="/lib/weather/?r=1&d=0" width="240" height="450" scrolling="no"></iframe> 
+<link rel="stylesheet" type="text/css" href="<?php echo SKIN_PATH; ?>default/plugins/weather/css/utility.css" />
+<script language="javascript" src="<?php echo SKIN_PATH; ?>default/plugins/weather/js/jquery.lionbars.0.3.js"></script>
+<script>
+    var $ = jQuery;
+    $(function ($)
+    {
+        $('.demo').lionbars();
+    });
+    jQuery.noConflict();
+</script>
+<style>
+    .bg_tb
+    {
+        background:url('images/bg.png') #fff;
+        background-repeat: repeat-x;        
+    }
+    .demo { background: white; float: left;  width: 230px; padding-right:px; height: 80px; color: #222; font: 12px/18px helvetica, tahoma, sans-serif; overflow: auto; }
+</style>
+
+<div class="left_block">    
+    <table width="230px" cellspacing="0" cellpadding="0" border="0" class="bg_tb">
+        <!-- Weather -->
+        <tr>
+            <td  valign="top" style="padding:5px">
+                <table width="120px" border="0" cellspacing="0" cellpadding="0">
+                    <tr><td><img src="<?php echo SKIN_PATH; ?>default/plugins/weather/images/cloud.png" border="0"  width="25px" style="vertical-align:middle" /> <b>Thời tiết</b></td>
+                    </tr>
+
+                    <tr>
+                        <td id="content_Weather">
+                            
+                        </td>
+                    </tr>
+                </table>                
+            </td>
+        </tr>
+        <!-- Gold price -->
+        <tr>
+            <td style="padding:5px">
+                <table border="0" cellpadding="0" cellspacing="0" width="95%">
+                    <tr><td colspan="2">
+                        <img border="0" src="<?php echo SKIN_PATH; ?>default/plugins/weather/images/money.png" style="vertical-align:middle" width="25px" alt="Giá vàng" />
+                        <b>Giá vàng</b>
+                    </td></tr>
+                    <tr><td>
+                        <table class="bor_ctd" border="0"  cellpadding="0" cellspacing="0" width="100%">
+                            <tr><td class="ctd" align="center" >Loại</td>
+                                <td class="ctd"  align="center" >Mua vào</td>
+                                <td class="ctd"  align="center" >Bán ra</td>
+                            </tr>
+                            <tr>
+                                <td class="ctd" align="center"><?php echo $gold_data[2]['TYPE']; ?></td>
+                                <td class="ctd" align="right"><?php echo $gold_data[2]['BUY']; ?></td>
+                                <td class="ctd" align="right"><?php echo $gold_data[2]['SELL']; ?></td>
+                            </tr>                            
+                        </table>
+                    </td></tr>
+                </table>
+            </td>
+        </tr>
+        <!-- exchange -->
+        <tr>
+            <td style="padding:5px">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td colspan="2">
+                            <img src="<?php echo SKIN_PATH; ?>default/plugins/weather/images/circle-chart.png" style="vertical-align:middle" border="0" alt="Tỷ giá" />
+                            <b>Tỷ giá</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" width="95%">
+                            <div id="AdTyGiaLoc">
+                                <div class="demo" style="height: 210px;">
+                                    <table class="bor_ctd" border="0"  cellpadding="0" cellspacing="0" width="95%">
+                                        <tr><td class="ctd" align="center" >Mã</td>
+                                            <td class="ctd"  align="center" >Mua TM</td>
+                                            <td class="ctd"  align="center" >Mua CK</td>
+                                            <td class="ctd"  align="center" >Bán</td>
+                                        </tr>                                            
+                                        <?php                                    
+                                        foreach ($rate_data as $rate) {
+                                        ?>
+                                        <tr>
+                                            <td class="ctd">&nbsp;&nbsp;<?php echo $rate['CURRENCYCODE']; ?></td>
+                                            <td class="ctd">&nbsp;<?php echo $rate['BUY']; ?></td>
+                                            <td class="ctd">&nbsp;<?php echo $rate['TRANSFER']; ?></td>
+                                            <td class="ctd">&nbsp;<?php echo $rate['SELL']; ?></td>
+                                        </tr>
+                                        <?php } ?>  
+
+
+                                        <tr><td>
+
+                                        </td></tr>
+                                    </table>
+                                </div>                                    
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+            </td>
+        </tr>   
+    </table>      
 </div>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Da Nang, VN</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Da_Nang__VN/*http://weather.yahoo.com/forecast/VMXX0028_c.html</link>
+<description>Yahoo! Weather for Da Nang, VN</description>
+<language>en-us</language>
+<lastBuildDate>Sun, 07 Jul 2013 8:30 am ICT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Da Nang" region=""   country="Vietnam"/>
+<yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+<yweather:wind chill="30"   direction="170"   speed="8.05" />
+<yweather:atmosphere humidity="62"  visibility="9.99"  pressure="982.05"  rising="0" />
+<yweather:astronomy sunrise="5:21 am"   sunset="6:24 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Da Nang, VN at 8:30 am ICT</title>
+<geo:lat>16.05</geo:lat>
+<geo:long>108.21</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Da_Nang__VN/*http://weather.yahoo.com/forecast/VMXX0028_c.html</link>
+<pubDate>Sun, 07 Jul 2013 8:30 am ICT</pubDate>
+<yweather:condition  text="Mostly Cloudy"  code="28"  temp="30"  date="Sun, 07 Jul 2013 8:30 am ICT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/28.gif"/><br />
+<b>Current Conditions:</b><br />
+Mostly Cloudy, 30 C<BR />
+<BR /><b>Forecast:</b><BR />
+Sun - PM Thunderstorms. High: 33 Low: 26<br />
+Mon - Cloudy. High: 33 Low: 26<br />
+Tue - Scattered Thunderstorms. High: 33 Low: 25<br />
+Wed - Isolated Thunderstorms. High: 34 Low: 25<br />
+Thu - PM Thunderstorms. High: 34 Low: 26<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Da_Nang__VN/*http://weather.yahoo.com/forecast/VMXX0028_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Sun" date="7 Jul 2013" low="26" high="33" text="PM Thunderstorms" code="38" />
+<yweather:forecast day="Mon" date="8 Jul 2013" low="26" high="33" text="Cloudy" code="26" />
+<yweather:forecast day="Tue" date="9 Jul 2013" low="25" high="33" text="Scattered Thunderstorms" code="38" />
+<yweather:forecast day="Wed" date="10 Jul 2013" low="25" high="34" text="Isolated Thunderstorms" code="37" />
+<yweather:forecast day="Thu" date="11 Jul 2013" low="26" high="34" text="PM Thunderstorms" code="38" />
+<guid isPermaLink="false">VMXX0028_2013_07_11_7_00_ICT</guid>
+</item>
+</channel>
+</rss>
+
+<!-- api18.weather.gq1.yahoo.com Sun Jul  7 02:03:29 PST 2013 -->
