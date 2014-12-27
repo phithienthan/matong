@@ -1,14 +1,16 @@
 <section class="main_content">                                        
     <section class="content_detail">
         <section class="sec_content fl">
-            <header>
+            <h1 class="fl">
                 <?php echo $categoryInfo['title']; ?>
-                <div class="date_time"><?php $publicTime = new DateTime($article['public_time']);
+            </h1>
+            <div class="date_time"><?php $publicTime = new DateTime($article['public_time']);
                 echo date_format($publicTime, 'g:i A');
-                ?> Ngày <?php echo date_format($publicTime, 'd/m/Y'); ?></div>
-            </header>
+                ?> Ngày <?php echo date_format($publicTime, 'd/m/Y'); ?>
+            </div>
+            <hr>
             <div class="news_item">                
-<?php echo $article['detail']; ?>
+            <?php echo $article['detail']; ?>
             </div>                    
         </section>        
     </section>

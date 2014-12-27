@@ -8,8 +8,18 @@
                 ?> Ngày <?php echo date_format($publicTime, 'd/m/Y'); ?></div>
             </header>
             <div class="news_item">
-<?php echo $article['detail']; ?>
+            <?php echo $article['detail']; ?>
             </div>                    
-        </section>              
+        </section>     
+        <section class="sec_content fl">
+            <header>
+                Bài viết khác
+            </header>            
+            <?php foreach ($articles as $item) { ?>    
+                <?php if($item['id'] != $article['id']){ ?>
+                <li class="other_news"><a href="/<?php echo $item['url_key']; ?>"><?php echo $item['title']; ?></a></li>                        
+                <?php } ?>
+            <?php } ?>     
+        </section>        
     </section>
 </section>    
