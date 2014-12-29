@@ -14,7 +14,7 @@ $Config['UserFilesPath'] = '/uploads/' ;
 // link or alias. Examples: 'C:\\MySite\\userfiles\\' or '/root/mysite/userfiles/'.
 // Attention: The above 'UserFilesPath' must point to the same directory.
 // sf_cms require_replace this path when deploy
-$Config['UserFilesAbsolutePath'] = 'E:\Projects\my project\CaTrau\source\catrau\uploads\\';
+$Config['UserFilesAbsolutePath'] = 'E:\Projects\my project\lonMuong\source\lonmuong\uploads\\';
 
 // Due to security issues with Apache modules, it is recommended to leave the
 // following setting enabled.

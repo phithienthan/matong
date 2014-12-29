@@ -1,17 +1,9 @@
-<section class="main_content">                                        
+<section class="main_content">
     <section class="content_detail">
         <section class="sec_content fl">
-            <h1 class="fl">
-                <?php echo $categoryInfo['title']; ?>
-            </h1>
-            <div class="date_time"><?php $publicTime = new DateTime($article['public_time']);
-                echo date_format($publicTime, 'g:i A');
-                ?> Ngày <?php echo date_format($publicTime, 'd/m/Y'); ?>
-            </div>
-            <hr>
-            <div class="news_item">                
+            <div class="news_item">
             <?php echo $article['detail']; ?>
-            </div>                    
-        </section>        
+            </div>
+        </section>
     </section>
-</section>    
+</section>

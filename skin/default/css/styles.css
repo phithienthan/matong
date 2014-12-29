@@ -22,10 +22,10 @@ h1{
     margin: 0;
 }
 hr {
-    border: 0 none;  
+    border: 0 none;
     color: #b66901;
-    background-color: #b66901;         
-    height: 1px;     
+    background-color: #b66901;
+    height: 1px;
 }
 /* Common */
 .fl{
@@ -146,22 +146,68 @@ hr {
 .left_box_list ul{
     list-style-image: url(../images/bullet.jpg);
     margin: 0;
-    padding: 5px 0 0 0px;        
+    padding: 5px 0 0 0px;
 }
 
 .left_box_list ul li {
     margin: 8px 0 8px 30px;
-    border-bottom: dotted 1px #ccc;    
+    border-bottom: dotted 1px #ccc;
     padding: 0 0 8px 0;
 }
 /* box_news */
+
 section.sec_content > header {
-    border-bottom: 1px solid #E5E5E5;    
-    text-transform: uppercase;
+    border-bottom: 1px solid #b66901;
     font-weight: bold;
     margin: 10px 0 8px 0;
     padding: 8px 0 6px 8px;
-    width: 641px;
+    color: #b66901;
+}
+section.content_detail > header {
+    border-bottom: 1px solid #b66901;
+    font-weight: bold;
+    margin: 10px 0 8px 0;
+    padding: 8px 0 6px 8px;
+}
+.news_title{
+    font-weight: bold;
+    line-height: 30px;
+}
+.pTitle{
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.pHead{
+    font-size: 13px;
+    line-height: 20px;
+}
+.date_time{
+    color: #666666;
+    font-weight: normal;
+    font-size: 11px;
+}
+section.content_detail article {
+    margin-right: 10px;
+    float:left;
+}
+section.sec_content article .cover {
+    float: left;
+    height: 110px;
+    margin-right: 2%;
+    margin-top: 5px;
+    width: 180px;
+    border: solid 1px #cccccc;
+}
+section.content_detail article .cover:hover{
+    border: solid 1px #2EC0D2;
+}
+section.sec_content article {
+    border-bottom: 1px solid #F1F1F1;
+    float: left;
+    margin: 0 0 10px 8px;
+    padding: 0 0 10px;
+    width: 100%;
 }
 .other_news{
     font-weight: bold;
@@ -169,7 +215,7 @@ section.sec_content > header {
 }
 .news_box_title{
     width: 21px;
-    height: 23px;    
+    height: 23px;
     background: #02a21a url(../images/news_box_title.jpg) no-repeat;    
 }
 .news_block{
@@ -200,10 +246,6 @@ section.sec_content > header {
     margin: 8px 0 8px 30px;
     border-bottom: dotted 1px #ccc;    
     padding: 0 0 8px 0;
-}
-.date_time{
-    width: 100%;
-    text-align: right;
 }
 /* right content */
 .images_library{
